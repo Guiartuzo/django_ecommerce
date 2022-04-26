@@ -1,4 +1,3 @@
-from msilib.schema import ListView
 from django.shortcuts import render
 from django.views.generic import ListView
 from django.views import View
