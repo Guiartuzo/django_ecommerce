@@ -43,7 +43,11 @@ INSTALLED_APPS = [
 
     # TODO: Remove django toolbar when deployed
     "debug_toolbar",
+    'crispy_forms'
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
