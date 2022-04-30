@@ -6,7 +6,6 @@ from django.views.generic.detail import DetailView
 from django.contrib import messages
 
 from django.views import View
-from numpy import quantile
 from . import models
 from pprint import pprint
 
